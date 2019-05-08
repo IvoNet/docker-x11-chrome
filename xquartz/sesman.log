@@ -1,0 +1,68 @@
+[20180919-20:20:40] [DEBUG] Testing if xrdp can listen on 0.0.0.0 port 3389.
+[20180919-20:20:40] [DEBUG] Closed socket 6 (AF_INET6 :: port 3389)
+[20180919-20:20:42] [INFO ] starting xrdp with pid 96
+[20180919-20:20:42] [INFO ] listening to port 3389 on 0.0.0.0
+[20180919-20:20:50] [INFO ] Socket 11: AF_INET6 connection received from ::ffff:127.0.0.1 port 34678
+[20180919-20:20:50] [DEBUG] Closed socket 11 (AF_INET6 ::ffff:127.0.0.1 port 3389)
+[20180919-20:20:50] [DEBUG] Closed socket 10 (AF_INET6 :: port 3389)
+[20180919-20:20:50] [DEBUG] Security layer: requested 0, selected 0
+[20180919-20:20:50] [INFO ] connected client computer name: Guacamole RDP
+[20180919-20:20:50] [INFO ] Non-TLS connection established from ::ffff:127.0.0.1 port 34678: encrypted with standard RDP security
+[20180919-20:20:50] [DEBUG] xrdp_0000017a_wm_login_mode_event_00000001
+[20180919-20:20:50] [INFO ] Loading keymap file /etc/xrdp/km-00000409.ini
+[20180919-20:20:50] [WARN ] local keymap file for 0x00000409 found and doesn't match built in keymap, using local keymap file
+[20180919-20:20:52] [DEBUG] xrdp_wm_log_msg: VNC started connecting
+[20180919-20:20:52] [DEBUG] xrdp_wm_log_msg: VNC connecting to 127.0.0.1 5901
+[20180919-20:20:53] [DEBUG] xrdp_wm_log_msg: VNC tcp connected
+[20180919-20:20:53] [DEBUG] xrdp_wm_log_msg: VNC security level is 1 (1 = none, 2 = standard)
+[20180919-20:20:53] [DEBUG] xrdp_wm_log_msg: VNC sending share flag
+[20180919-20:20:53] [DEBUG] xrdp_wm_log_msg: VNC receiving server init
+[20180919-20:20:53] [DEBUG] xrdp_wm_log_msg: VNC receiving pixel format
+[20180919-20:20:53] [DEBUG] xrdp_wm_log_msg: VNC receiving name length
+[20180919-20:20:53] [DEBUG] xrdp_wm_log_msg: VNC receiving name
+[20180919-20:20:53] [DEBUG] xrdp_wm_log_msg: VNC sending pixel format
+[20180919-20:20:53] [DEBUG] xrdp_wm_log_msg: VNC sending encodings
+[20180919-20:20:53] [DEBUG] xrdp_wm_log_msg: VNC sending framebuffer update request
+[20180919-20:20:53] [DEBUG] xrdp_wm_log_msg: VNC sending cursor
+[20180919-20:20:53] [DEBUG] xrdp_wm_log_msg: VNC connection complete, connected ok
+[20180919-20:20:53] [INFO ] The following channel is allowed: cliprdr (0)
+[20180919-20:20:53] [INFO ] The following channel is allowed: rdpdr (1)
+[20180919-20:20:53] [INFO ] The following channel is allowed: rdpsnd (2)
+[20180919-20:20:53] [DEBUG] The allow channel list now initialized for this session
+[20180919-20:20:53] [DEBUG] xrdp_wm_log_msg: connected ok
+[20180919-20:20:53] [DEBUG] return value from xrdp_mm_connect 0
+[20180919-20:20:53] [DEBUG] CLIPRDR_FORMAT_ANNOUNCE - status 0 length 72
+[20180919-20:24:49] [DEBUG] Testing if xrdp can listen on 0.0.0.0 port 3389.
+[20180919-20:24:49] [DEBUG] Closed socket 6 (AF_INET6 :: port 3389)
+[20180919-20:24:51] [INFO ] starting xrdp with pid 88
+[20180919-20:24:51] [INFO ] listening to port 3389 on 0.0.0.0
+[20180919-20:24:59] [INFO ] Socket 11: AF_INET6 connection received from ::ffff:127.0.0.1 port 34822
+[20180919-20:24:59] [DEBUG] Closed socket 11 (AF_INET6 ::ffff:127.0.0.1 port 3389)
+[20180919-20:24:59] [DEBUG] Closed socket 10 (AF_INET6 :: port 3389)
+[20180919-20:24:59] [DEBUG] Security layer: requested 0, selected 0
+[20180919-20:24:59] [INFO ] connected client computer name: Guacamole RDP
+[20180919-20:24:59] [INFO ] Non-TLS connection established from ::ffff:127.0.0.1 port 34822: encrypted with standard RDP security
+[20180919-20:24:59] [DEBUG] xrdp_0000017b_wm_login_mode_event_00000001
+[20180919-20:24:59] [INFO ] Loading keymap file /etc/xrdp/km-00000409.ini
+[20180919-20:24:59] [WARN ] local keymap file for 0x00000409 found and doesn't match built in keymap, using local keymap file
+[20180919-20:25:01] [DEBUG] xrdp_wm_log_msg: VNC started connecting
+[20180919-20:25:01] [DEBUG] xrdp_wm_log_msg: VNC connecting to 127.0.0.1 5901
+[20180919-20:25:01] [DEBUG] xrdp_wm_log_msg: VNC tcp connected
+[20180919-20:25:01] [DEBUG] xrdp_wm_log_msg: VNC security level is 1 (1 = none, 2 = standard)
+[20180919-20:25:01] [DEBUG] xrdp_wm_log_msg: VNC sending share flag
+[20180919-20:25:01] [DEBUG] xrdp_wm_log_msg: VNC receiving server init
+[20180919-20:25:01] [DEBUG] xrdp_wm_log_msg: VNC receiving pixel format
+[20180919-20:25:01] [DEBUG] xrdp_wm_log_msg: VNC receiving name length
+[20180919-20:25:01] [DEBUG] xrdp_wm_log_msg: VNC receiving name
+[20180919-20:25:01] [DEBUG] xrdp_wm_log_msg: VNC sending pixel format
+[20180919-20:25:01] [DEBUG] xrdp_wm_log_msg: VNC sending encodings
+[20180919-20:25:01] [DEBUG] xrdp_wm_log_msg: VNC sending framebuffer update request
+[20180919-20:25:01] [DEBUG] xrdp_wm_log_msg: VNC sending cursor
+[20180919-20:25:01] [DEBUG] xrdp_wm_log_msg: VNC connection complete, connected ok
+[20180919-20:25:01] [INFO ] The following channel is allowed: cliprdr (0)
+[20180919-20:25:01] [INFO ] The following channel is allowed: rdpdr (1)
+[20180919-20:25:01] [INFO ] The following channel is allowed: rdpsnd (2)
+[20180919-20:25:01] [DEBUG] The allow channel list now initialized for this session
+[20180919-20:25:01] [DEBUG] xrdp_wm_log_msg: connected ok
+[20180919-20:25:01] [DEBUG] return value from xrdp_mm_connect 0
+[20180919-20:25:01] [DEBUG] CLIPRDR_FORMAT_ANNOUNCE - status 0 length 72
