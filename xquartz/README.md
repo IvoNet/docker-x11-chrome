@@ -16,3 +16,6 @@ must be run as root
 sudo ./install.sh
 ```
 
+# Requirements
+
+* [Homebrew](https://brew.sh) should be installed on your macbrew

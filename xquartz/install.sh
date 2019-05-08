@@ -1,5 +1,23 @@
 #!/usr/bin/env bash
 #set -xv
+check=`which brew`
+if [ "$check" = "" ]
+then
+    echo "Homebrew is missing. Please install from https://brew.sh"
+    exit 1
+fi
+check=`which Xquartz`
+if [ "$check" = "" ]
+then
+    echo "Xquartz is missing. please install with 'brew cask install xquartz'."
+    exit 1
+fi
+check=`which socat`
+if [ "$check" = "" ]
+then
+    echo "socat is missing. please install with 'brew install socat'."
+    exit 1
+fi
 echo "Installing socat launch deamon for X11"
 source=ivonet.socat.x11.listener.plist
 target=/Library/LaunchDaemons/ivonet.socat.x11.listener.plist

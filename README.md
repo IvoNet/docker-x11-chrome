@@ -12,6 +12,15 @@ See `run.sh` and `x11-chrome.sh` for examples on how to run the application.
 
 See `build.sh` for build instructions
 
+# Trouble shooting
+
+if you get a message like:
+
+```text
+google-chrome:1): Gtk-WARNING **: SOME_IP: cannot open display: SOME_OTHER_IP
+```
+Please look at the [xquarts](xquartz/README.md) solution
+
 ---
 # License
 
