@@ -1,38 +1,10 @@
 # x11-chrome
 
-Web desktop docker image for: x11-chrome
+X11 desktop docker image for: x11-chrome
 
 # Usage
 
 See `run.sh` and `x11-chrome.sh` for examples on how to run the application.
-
-# Exposed Ports
-
-| Port number          | Description                                             |
-| :--------------------| :-------------------------------------------------------|
-| | |
-| | |
-
-# Volumes
-
-| Volume path          | Description                                             |
-| :--------------------| :-------------------------------------------------------|
-| | |
-| | |
-
-# Environment variables
-
-| Environment Variable | Description                                             |
-| :--------------------| :-------------------------------------------------------|
-| | |
-| | |
-
-# Base image configurable settings
-
-Lots of things can be configured through the base image.
-
-See repo [docker-web-gui-base](https://github.com/IvoNet/docker-web-gui-base/blob/master/README.md)
-for documentation on the base image.
 
 # For developers
 
